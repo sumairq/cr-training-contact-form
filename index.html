@@ -11,7 +11,9 @@
 
 <body>
   <header>
-    <h1 id="logo">Aziz Mejri</h1>
+    <a href="#">
+      <h1 id="logo">Aziz Mejri</h1>
+    </a>
     <button type="button" class="menu-bars">
       <i class="fas fa-bars"></i>
     </button>
@@ -216,19 +218,20 @@
     </div>
   </main>
 
-  <section class="contact-form">
+  <footer class="contact-form">
     <div class="contact-form-header">
       <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
     </div>
     <form action="https://formspree.io/f/mbjqyrqj" method="POST">
       <div class="form-group">
-        <input type="text" name="name" id="fullname" maxlength="30" placeholder="Write your full name" />
+        <input type="text" name="name" id="fullname" maxlength="30" placeholder="Write your full name" required />
         <input type='email' name="email" id="email" placeholder="Write your email" required />
-        <textarea class="form-group-textarea" name="tarea" maxlength="500" placeholder="Enter text here"></textarea>
+        <textarea class="form-group-textarea" name="tarea" maxlength="500" placeholder="Enter text here"
+          required></textarea>
       </div>
       <button id="sub-btn" type="submit" class="btn-1">Get in touch</button>
     </form>
-  </section>
+  </footer>
 
   <script src="https://kit.fontawesome.com/e966a3bd22.js" crossorigin="anonymous"></script>
 </body>
